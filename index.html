@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>HP QUIZ</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Trade+Winds&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="heading">
+      <h1>Hogwarts House Quiz</h1>
+      <p>Where will you be sorted? Take the quiz to find out!</p>
+    </div>
+
+    <div id="quizWindow">
+      <form class="question" id="job">
+        <p>Which Job would you pick?</p>
+        <div>
+          <input type="radio" id="minister" name="job" value="minister">
+          <label for="minister">The Minister of Magic</label>
+        </div>
+        <div>
+          <input type="radio" id="professional" name="job" value="professional">
+          <label for="professional">A professional Quidditch player</label>
+        </div>
+        <div>
+          <input type="radio" id="auror" name="job" value="auror">
+          <label for="auror">An Auror</label>
+        </div>
+        <div>
+          <input type="radio" id="professor" name="job" value="professor">
+          <label for="professor">A Hogwarts Professor</label>
+        </div>
+        </form>
+
+        <form class="question" id='artifact'>
+          <p>If you could own any of these magical artifacts, which would it be?</p>
+          <div>
+            <input type="radio" id="deluminator" name="artifact" value="deluminator">
+            <label for="deluminator">A Deluminator</label>
+          </div>
+          <div>
+            <input type="radio" id="pensieve" name="artifact" value="pensieve">
+            <label for="pensieve">A Pensieve</label>
+          </div>
+          <div>
+            <input type="radio" id="cloak" name="artifact" value="cloak">
+            <label for="cloak">The Invisibility Cloak</label>
+          </div>
+          <div>
+            <input type="radio" id="wand" name="artifact" value="wand">
+            <label for="wand">The Elder Wand</label>
+          </div>
+          <div>
+            <input type="radio" id="car" name="artifact" value="car">
+            <label for="car">Arthur Weasley's Magic Ford Anglia</label>
+          </div>
+        </form>
+
+        <form class="question" id="creature">
+          <p>What is your favorite magical creature?</p>
+          <div>
+            <input type="radio" id="pheonix" name="creature" value="pheonix">
+            <label for="pheonix">Pheonix</label>
+          </div>
+          <div>
+            <input type="radio" id="dragon" name="creature" value="dragon">
+            <label for="dragon">Dragon</label>
+          </div>
+          <div>
+            <input type="radio" id="hippogriff" name="creature" value="hippogriff">
+            <label for="hippogriff">Hippogriff</label>
+          </div>
+          <div>
+            <input type="radio" id="basilisk" name="creature" value="basilisk">
+            <label for="basilisk">Basilisk</label>
+          </div>
+          <div>
+            <input type="radio" id="unicorn" name="creature" value="unicorn">
+            <label for="unicorn">Unicorn</label>
+          </div>
+          <div>
+            <input type="radio" id="acromantula" name="creature" value="acromantula">
+            <label for="acromantula">Acromantula</label>
+          </div>
+        </form>
+
+        <form class="question" id="quidditch">
+          <p>Which Quidditch position would you want to play?</p>
+          <div>
+            <input type="radio" id="beater" name="quidditch" value="beater">
+            <label for="beater">Beater</label>
+          </div>
+          <div>
+            <input type="radio" id="seeker" name="quidditch" value="seeker">
+            <label for="seeker">Seeker</label>
+          </div>
+          <div>
+            <input type="radio" id="Chaser" name="quidditch" value="Chaser">
+            <label for="Chaser">Chaser</label>
+          </div>
+          <div>
+            <input type="radio" id="keeper" name="quidditch" value="keeper">
+            <label for="keeper">Keeper</label>
+          </div>
+        </form>
+
+
+
+          <div>
+            <button id="button" type="submit">Submit</button>
+          </div>
+      </div>
+
+      <div class='edge' id="border">
+        <div class="result" id='results'></div><div class="result" id="houseMembers"></div>
+      </div>
+
+      <footer>
+        <p>Designed by Grant Windsor | <a href="https://github.com/grant-windsor/get-sorted"> Link to github</a></p>
+      </footer>
+
+
+    <script text="type/javascript" src="scripts.js"></script>
+  </body>
+</html>
